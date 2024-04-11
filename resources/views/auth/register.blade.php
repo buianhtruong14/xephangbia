@@ -2,11 +2,11 @@
 <html lang="en">
     @include('auth.head')
   <body  class=" d-flex flex-column">
-    <script src="./dist/js/demo-theme.min.js?1684106062"></script>
+    <script src="{{asset('demo/dist/js/demo-theme.min.js?1684106062')}}"></script>
     <div class="page page-center">
       <div class="container container-tight py-4">
         <div class="text-center mb-4">
-          <a href="." class="navbar-brand navbar-brand-autodark"><img src="{{asset('admin/static/logo.svg')}}" height="36" alt=""></a>
+          <a href="." class="navbar-brand navbar-brand-autodark"><img src="{{asset('demo/static/logo.svg')}}" height="36" alt=""></a>
         </div>
         <form class="card card-md" action="{{url('register')}}" method="post" autocomplete="off" novalidate>
           @csrf

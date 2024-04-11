@@ -2,11 +2,11 @@
 <html lang="en">
   @include('auth.head')
   <body  class=" d-flex flex-column">
-    <script src="{{asset('admin/dist/js/demo-theme.min.js?1684106062')}}"></script>
+    <script src="{{asset('demo/dist/js/demo-theme.min.js?1684106062')}}"></script>
     <div class="page page-center">
       <div class="container container-tight py-4">
         <div class="text-center mb-4">
-          <a href="." class="navbar-brand navbar-brand-autodark"><img src="{{asset('admin/static/logo.svg')}}" height="36" alt=""></a>
+          <a href="." class="navbar-brand navbar-brand-autodark"><img src="{{asset('demo/static/logo.svg')}}" height="36" alt=""></a>
         </div>
         <div class="card card-md">
           <div class="card-body">
@@ -21,7 +21,7 @@
                 <label class="form-label">
                   Password
                   <span class="form-label-description">
-                    <a href="{{asset('admin/forgot-password.html')}}">I forgot password</a>
+                    <a href="{{asset('demo/forgot-password.html')}}">I forgot password</a>
                   </span>
                 </label>
                 <div class="input-group input-group-flat">
