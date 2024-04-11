@@ -22,6 +22,6 @@ class RegisterController extends Controller
         }catch(\Throwable $th){
             dd($th);
         }
-        return redirect('/');
+        return redirect()->route('dashboard');
     }
 }
